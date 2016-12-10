@@ -1,0 +1,8 @@
+
+
+From the master, we need:
+-- A web service receiving tasks from clients.
+-- An asynchronously triggered task sorting mechanism, with fast, locked, persistent storage.
+-- Another web service to communicate tasks & data to slaves - potentially with the help of torrents.
+-- Version control for api-defined binaries + extensions. A way to check version api-defined?
+-- Data analysis mechanisms.

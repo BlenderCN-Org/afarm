@@ -1,0 +1,4 @@
+setup.py - Distribution
+requirements.txt - Pip Requirements File; https://pip.pypa.io/en/stable/user_guide/#requirements-files
+tests - Test modules to test installed package.
+Makefile - Why? Generic Management Tasks!

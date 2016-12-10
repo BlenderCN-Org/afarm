@@ -1,0 +1,11 @@
+command.py: Concerns itself with running the tasks on the slave.
+: runTask - Run the api specific task.
+: parseTask - Reports progess in some way. asyncio, text file, frequent scanning are all possiblilities.
+
+
+From the API, we need:
+-- A task object, inheriting some core task attributes that will be used by the system!
+-- A way to assemble & run api-specific tasks.
+-- A way to report data from running & finished tasks.
+-- A method of determining/reporting difficulty.
+-- A benchmark determining hardware capability.
